@@ -1,0 +1,19 @@
+linters:
+  disable-all: true
+  enable:
+  # default
+    - errcheck
+    - gofmt
+    - gosimple
+    - govet
+    - ineffassign
+    - staticcheck
+    - unused
+  # additional
+    - asasalint
+    - asciicheck
+    - errname
+    - exhaustive
+    - exptostd
+    - iface
+    - wsl
